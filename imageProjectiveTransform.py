@@ -197,7 +197,7 @@ if __name__ == '__main__':
 
     import imageio as io
 
-    srcRGB = io.imread("../../../Images/Numpy.png") #, flatten=True)
+    srcRGB = io.imread("Numpy.png") #, flatten=True)
     img = (np.sum(srcRGB, axis=2) / 3).round().astype(np.uint8)
     print("img: shape:%s"%str(img.shape))
 
