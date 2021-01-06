@@ -2,6 +2,9 @@
 from sys import version
 print("python version:", version)
 
+import imageio as io
+print("imageio version:", io.__version__)
+
 import numpy as np
 from numpy import pi, sin, cos, sqrt
 print("numpy version:",np.__version__)
@@ -346,8 +349,6 @@ def gridOfPoints(w=8, h=6, step=1, centred=False):
     return grid
 
 #------------------------------------------------
-
-import imageio as io
 
 def closestPtIdxDist(xy, line):
     x, y = xy
