@@ -1,6 +1,13 @@
 
+from sys import version
+print("python version:", version)
+
 import numpy as np
 from numpy import pi, sin, cos, sqrt
+print("numpy version:",np.__version__)
+
+import matplotlib
+print("matplotlib version:", matplotlib.__version__)
 
 deg2rd = pi/180
 rd2deg = 180/pi
